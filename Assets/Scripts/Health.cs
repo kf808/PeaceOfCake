@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     private int maxHealth = 200;
     [SerializeField]
     private Sprite deathSprite;
+    [SerializeField]
+    private bool infiniteHealth;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -20,6 +22,12 @@ public class Health : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         levelManager = FindObjectOfType<LevelManager>();
+    }
+
+    private void Update()
+    {
+        if (infiniteHealth)
+            health = maxHealth;
     }
 
     public void TakeDamage(int amount)
