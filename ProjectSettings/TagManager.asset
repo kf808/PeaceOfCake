@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Princess
+  - BoundsConfiner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemies
+  - Player
+  - Princess
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground1
+    uniqueID: 1084935935
+    locked: 0
+  - name: Ground2
+    uniqueID: 3519716375
+    locked: 0
+  - name: Hazards
+    uniqueID: 3239626531
+    locked: 0
+  - name: GroundDecor1
+    uniqueID: 3051117179
+    locked: 0
+  - name: GroundDecor2
+    uniqueID: 3423431283
+    locked: 0
+  - name: Instances
+    uniqueID: 3752575531
+    locked: 0
+  - name: Front1
+    uniqueID: 3375990331
+    locked: 0
+  - name: Front2
+    uniqueID: 134132135
+    locked: 0
+  - name: Collisions
+    uniqueID: 1402432871
+    locked: 0
