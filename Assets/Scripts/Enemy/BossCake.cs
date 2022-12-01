@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BossCake : MonoBehaviour
@@ -14,6 +12,8 @@ public class BossCake : MonoBehaviour
     private EnemyTower defense3;
     [SerializeField]
     private EnemyTower defense4;
+    [SerializeField]
+    private GameObject healthBar;
 
     private EnemyTower enemyTower;
 
@@ -26,6 +26,8 @@ public class BossCake : MonoBehaviour
     {
         if ((defense1 != null) || (defense2 != null) || (defense3 != null) || (defense4 != null))
             enemyTower.Health = 500;
+        else
+            healthBar.SetActive(true);
     }
 
     private void OnDestroy()
