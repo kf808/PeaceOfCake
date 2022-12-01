@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a50ba3a789f9941890523dcc84af96, type: 3}
+  m_Name: Level5Wave2
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 1898284726839944744, guid: 3fe3a868fd4096c49a29a2bd72a93a05, type: 3}
+  - {fileID: 1898284726839944744, guid: e97611ebd4bed5644b5e6524dae695e7, type: 3}
+  pathPrefab: {fileID: 3517261972614515402, guid: 27ec808db12414f43bb802e9c0821bc0, type: 3}
+  moveSpeed: 1
+  timeBetweenEnemySpawns: 2
+  spawnTimeVariance: 1
+  minimumSpawnTime: 0.2
